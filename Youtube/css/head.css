@@ -1,0 +1,104 @@
+.header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: white;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    z-index: 100;
+}
+.left-side{
+    /* background-color: skyblue; */
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.menu-icon{
+    width:90px ;
+    height:40px ;
+}
+.logo-icon{
+    width:100px ;
+    height:40px ;
+}
+.middle-side{
+    /* background-color: lightpink; */
+    width: 600px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.search-bar{
+    flex: 1;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    width: 0px;
+}
+.search-button{
+    height: 40px;
+    width: 75px;
+    vertical-align: middle;
+    cursor:pointer;
+    border: 1px solid gray;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius:60px;
+}
+.search-icon{
+   height: 30px;
+   margin-top: 4px;
+}
+.mike-icon{
+    margin-left: 10px;
+    margin-right: 10px;
+    width:22px;
+    height:22px;
+    padding: 5px;
+    background-color: rgb(222, 222, 222);
+    border-radius: 50%;
+}
+.right-side{
+    /* background-color: lightgreen; */
+    height: 50px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.notification_icon{
+    width: 32px; ;
+}
+.upload-icon,.notification-icon
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.msg{
+    position: absolute;
+    background-color: rgb(125, 32, 32);
+    color: white;
+    padding: 2px;
+    font-size:x-small;
+    border-radius: 60%;
+    top:10px;
+    right: 118px;
+    cursor: pointer;
+    text-align: center;
+}
+.profile-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 4px;
+}
